@@ -35,7 +35,9 @@ class NewsDataToDomainMapper {
         name = article.name,
         description = article.description,
         category = article.category,
-        url = article.url
+        url = article.url,
+        title = article.title,
+        urlToImage = article.urlToImage
     )
 }
 
@@ -58,7 +60,9 @@ class NewsDomainToDataMapper {
         name = article.name,
         description = article.description,
         category = article.category,
-        url = article.url
+        url = article.url,
+        title = article.title,
+        urlToImage = article.urlToImage
     )
 
 }

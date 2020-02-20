@@ -1,9 +1,9 @@
-package com.hades.domain.entities
+package com.hades.presentation.entities
 
 /**
- * Created by Hades on 2/19/2020.
+ * Created by Hades on 2/20/2020.
  */
-data class NewsDomain(
+data class News(
     var id: Int,
     var name: String? = null,
     var description: String? = null,
